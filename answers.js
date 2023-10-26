@@ -1,15 +1,19 @@
 ////////////////////////////////
 // Easy Going
 ////////////////////////////////
-for (let i = 1; i<=20; i = i+1){
-    console.log(i)
-}
+// for (let i = 1; i<=20; i = i+1){
+//     console.log(i)
+// }
 
 
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
+// My logic for this is that if a number is even, then it can be divisible by 2leaving it to be i=2 ;i = i + 2 
 
+for (let i = 2; i<=200; i = i + 2){
+    console.log(i)
+}
 
 ////////////////////////////////
 // Fizz Buzz
