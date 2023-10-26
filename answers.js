@@ -11,25 +11,19 @@
 ////////////////////////////////
 // My logic for this is that if a number is even, then it can be divisible by 2leaving it to be i=2 ;i = i + 2 
 
-for (let i = 2; i<=200; i = i + 2){
-    console.log(i)
-}
+// for (let i = 2; i<=200; i = i + 2){
+//     console.log(i)
+// }
 
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
-// for (let i=1; i<=100; i = i +1 ){
-//     if (i % 2 ===0){
-//         return "fizz"
-//     }
-//     else (i % 3 === 0);{
-//         return "buzz"
-//     }
-//     elseif(i % 2 ===0 && i % 3 === 0);{
-//         return "fizzbuzz"
-//     }
-// }
-
+for (let i=0; i <= 100 ; i = i + 1){
+    if (i % 3 == 0) console.log("Fizz");
+    else if (i % 5 == 0) console.log("Buzz");
+    if((i % 5==0) && (i % 3==0))console.log("FizzBuzz");
+    else if(i % 3 != 0 && i %5 != 0) console.log(i);
+}// This was from "test.js" in which I copy pasted an older code and edited it to work properly.
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
