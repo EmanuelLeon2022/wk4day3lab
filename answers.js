@@ -22,7 +22,7 @@ for (let i=0; i <= 100 ; i = i + 1){
     if (i % 3 == 0) console.log("Fizz");
     else if (i % 5 == 0) console.log("Buzz");
     if((i % 5==0) && (i % 3==0))console.log("FizzBuzz");
-    else if(i % 3 != 0 && i %5 != 0) console.log(i);
+    else if(i % 3 != 0 && i %5 != 0)console.log(i);
 }// This was from "test.js" in which I copy pasted an older code and edited it to work properly.
 ////////////////////////////////
 // Wild Wild Life
